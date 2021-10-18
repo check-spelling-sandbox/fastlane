@@ -1,0 +1,15 @@
+# spaceship/lib/spaceship/spaceauth_runner.rb
+The only value we actually need is the
+value:
+
+# screengrab/spec/runner_spec.rb
+<<-ADB_OUTPUT
+ADB_OUTPUT
+
+# actions
+def self.author
+end
+
+# License
+Permission is hereby granted
+DEALINGS IN THE SOFTWARE
