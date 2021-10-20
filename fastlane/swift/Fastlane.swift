@@ -5066,7 +5066,7 @@ public func getPushCertificate(development: OptionalConfigValue<Bool> = .fastlan
  Get the version number of your project
 
  - parameters:
-   - xcodeproj: Path to the Xcode project to read version number from, or its containing directory, optional. If ommitted, or if a directory is passed instead, it will use the first Xcode project found within the given directory, or the project root directory if none is passed
+   - xcodeproj: Path to the Xcode project to read version number from, or its containing directory, optional. If omitted, or if a directory is passed instead, it will use the first Xcode project found within the given directory, or the project root directory if none is passed
    - target: Target name, optional. Will be needed if you have more than one non-test target to avoid being prompted to select one
    - configuration: Configuration name, optional. Will be needed if you have altered the configurations from the default or your version number depends on the configuration selected
 
