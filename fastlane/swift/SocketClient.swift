@@ -240,7 +240,7 @@ extension SocketClient: StreamDelegate {
 
             case Stream.Event.errorOccurred:
                 // probably safe to close all the things because Ruby already disconnected
-                verbose(message: "output stream recevied error")
+                verbose(message: "output stream received error")
 
             case Stream.Event.endEncountered:
                 // nothing special here
