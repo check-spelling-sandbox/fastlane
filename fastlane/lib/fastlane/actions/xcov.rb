@@ -35,7 +35,7 @@ module Fastlane
         begin
           Gem::Specification.find_by_name('xcov')
         rescue Gem::LoadError
-          # Catched missing gem exception and returned empty array
+          # Catch missing gem exception and return empty array
           # to avoid unused_options_spec failure
           return []
         end
