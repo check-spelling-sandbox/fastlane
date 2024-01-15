@@ -4,7 +4,7 @@ require 'spaceship/connect_api/models/app_screenshot_set'
 require_relative 'app_screenshot'
 
 module Deliver
-  # This clsas enables you to compare equality between different representations of the screenshots
+  # This class enables you to compare equality between different representations of the screenshots
   # in the standard API `Array#-` that requires objects to implements `eql?` and `hash`.
   class ScreenshotComparable
     # A unique key value that is consist of locale, filename, and checksum.
