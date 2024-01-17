@@ -95,7 +95,7 @@ module Fastlane
     end
 
     def self.print_loaded_fastlane_gems
-      # fastlanes internal gems
+      # fastlane's internal gems
       env_output = "### fastlane gems\n\n"
       table = ""
       table << "| Gem | Version | Update-Status |\n"
