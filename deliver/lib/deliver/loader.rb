@@ -118,7 +118,7 @@ module Deliver
 
     # Returns the list of language folders
     #
-    # @param roort [String] A directory path to get the list of language folders
+    # @param root [String] A directory path to get the list of language folders
     # @param ignore_validation [Boolean] Set false not to raise the error when finding invalid folder name
     # @param expand_sub_folders [Boolean] Set true to expand special folders; such as "iMessage" to nested language folders
     # @return [Array<LanguageFolder>] The list of LanguageFolder whose each of them
