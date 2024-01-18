@@ -173,7 +173,7 @@ describe Sigh do
     end
 
     describe "#certificates_to_use" do
-      it "list certificates found when there're multiple certificates and not in development" do
+      it "list certificates found when there are multiple certificates and not in development" do
         options = { skip_certificate_verification: true }
         Sigh.config = FastlaneCore::Configuration.create(Sigh::Options.available_options, options)
         sigh_stub_spaceship_connect
@@ -182,7 +182,7 @@ describe Sigh do
         expect(certificates_to_use.size).to eq(1)
       end
 
-      it "list certificates found when there're multiple certificates and in development" do
+      it "list certificates found when there are multiple certificates and in development" do
         options = { include_all_certificates: true, development: true }
         Sigh.config = FastlaneCore::Configuration.create(Sigh::Options.available_options, options)
         sigh_stub_spaceship_connect
