@@ -119,7 +119,7 @@ public class CleanStatusBar {
      * Sets the wifi icon visibility
      * @param wifiVisibility the wifi {@link IconVisibility}
      */
-    public CleanStatusBar setWifiVisibility(@NonNull IconVisibility wifiVisibility) {
+    public CleanStatusBar setWiFiVisibility(@NonNull IconVisibility wifiVisibility) {
         this.wifiVisibility = wifiVisibility;
         return this;
     }
@@ -130,9 +130,9 @@ public class CleanStatusBar {
      *                  It must be between 0 and 4.
      *                  Set this to null to indicate a disconnected state
      */
-    public CleanStatusBar setWifiLevel(@Nullable Integer wifiLevel) {
+    public CleanStatusBar setWiFiLevel(@Nullable Integer wifiLevel) {
         if(wifiLevel != null && (wifiLevel < 0 || wifiLevel > 4))
-            throw new IllegalArgumentException("Wifi level must be null or between 0 and 4");
+            throw new IllegalArgumentException("WiFi level must be null or between 0 and 4");
         this.wifiLevel = wifiLevel;
         return this;
     }

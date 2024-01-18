@@ -131,7 +131,7 @@ fastlane produce enable_services --help
 ```
 
 ```no-highlight
---access-wifi                         Enable Access Wifi
+--access-wifi                         Enable Access WiFi
 --app-attest                          Enable App Attest
 --app-group                           Enable App Group
 --apple-pay                           Enable Apple Pay
@@ -194,7 +194,7 @@ fastlane produce disable_services --help
 ```
 
 ```no-highlight
---access-wifi                         Disable Access Wifi
+--access-wifi                         Disable Access WiFi
 --app-attest                          Disable App Attest
 --app-group                           Disable App Group
 --apple-pay                           Disable Apple Pay

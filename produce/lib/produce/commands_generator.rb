@@ -48,7 +48,7 @@ module Produce
         c.description = 'Enable specific Application Services for a specific app on the Apple Developer Portal'
         c.example('Enable HealthKit, HomeKit and Passbook', 'fastlane produce enable_services -a com.example.app --healthkit --homekit --passbook')
 
-        c.option('--access-wifi', 'Enable Access Wifi')
+        c.option('--access-wifi', 'Enable Access WiFi')
         c.option('--app-attest', 'Enable App Attest')
         c.option('--app-group', 'Enable App Group')
         c.option('--apple-pay', 'Enable Apple Pay')
@@ -125,7 +125,7 @@ module Produce
         c.description = 'Disable specific Application Services for a specific app on the Apple Developer Portal'
         c.example('Disable HealthKit', 'fastlane produce disable_services -a com.example.app --healthkit')
 
-        c.option('--access-wifi', 'Disable Access Wifi')
+        c.option('--access-wifi', 'Disable Access WiFi')
         c.option('--app-attest', 'Disable App Attest')
         c.option('--app-group', 'Disable App Group')
         c.option('--apple-pay', 'Disable Apple Pay')
