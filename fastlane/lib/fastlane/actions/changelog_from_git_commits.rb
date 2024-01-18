@@ -77,7 +77,7 @@ module Fastlane
         [
           FastlaneCore::ConfigItem.new(key: :between,
                                        env_name: 'FL_CHANGELOG_FROM_GIT_COMMITS_BETWEEN',
-                                       description: 'Array containing two Git revision values between which to collect messages, you mustn\'t use it with :commits_count key at the same time',
+                                       description: 'Array containing two Git revision values between which to collect messages, you must not use it with :commits_count key at the same time',
                                        optional: true,
                                        type: Array, # allow Array, String both
                                        conflicting_options: [:commits_count],
@@ -87,7 +87,7 @@ module Fastlane
                                        end),
           FastlaneCore::ConfigItem.new(key: :commits_count,
                                        env_name: 'FL_CHANGELOG_FROM_GIT_COMMITS_COUNT',
-                                       description: 'Number of commits to include in changelog, you mustn\'t use it with :between key at the same time',
+                                       description: 'Number of commits to include in changelog, you must not use it with :between key at the same time',
                                        optional: true,
                                        conflicting_options: [:between],
                                        type: Integer,
