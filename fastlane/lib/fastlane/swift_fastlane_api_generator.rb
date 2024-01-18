@@ -106,7 +106,7 @@ module Fastlane
         Fastlane::Runner.new.class_reference_from_action_name(plugin_action)
       end
 
-      # Excludes all actions that aren't pluign actions (including external actions)
+      # Excludes all actions that aren't plugin actions (including external actions)
       available_actions = []
       ActionsList.all_actions do |action|
         next unless action.respond_to?(:action_name)
