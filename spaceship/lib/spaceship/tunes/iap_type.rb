@@ -15,7 +15,7 @@ module Spaceship
       # A product that is purchased once and does not expire or decrease with use.
       READABLE_NON_CONSUMABLE = "Non-Consumable"
 
-      # A product that allows users to purchase dynamic content for a set period (auto-rene).
+      # A product that allows users to purchase dynamic content for a set period (auto-renew).
       READABLE_AUTO_RENEWABLE_SUBSCRIPTION = "Auto-Renewable Subscription"
 
       # A product that allows users to purchase a service with a limited duration.
