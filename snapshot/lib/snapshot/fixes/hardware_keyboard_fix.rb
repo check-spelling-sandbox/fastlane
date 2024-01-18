@@ -2,7 +2,7 @@ require_relative '../module'
 
 module Snapshot
   module Fixes
-    # Having "Connect Hardware Keyboard" enabled causes issues with entering text in secure textfields
+    # Having "Connect Hardware Keyboard" enabled causes issues with entering text in secure text fields
     # Fixes https://github.com/fastlane/fastlane/issues/2494
 
     class HardwareKeyboardFix
