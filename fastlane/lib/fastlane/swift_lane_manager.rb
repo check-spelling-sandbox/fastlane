@@ -121,7 +121,7 @@ module Fastlane
     # Find all the config files we care about (Deliverfile, Gymfile, etc), and build tuples of what file we'll look for
     # in the Xcode project, and what file paths we'll need to swap (since we have to inject the user's configs)
     #
-    # Return a mapping of what file paths we're looking => new file pathes we'll need to inject
+    # Return a mapping of what file paths we're looking => new file paths we'll need to inject
     def self.collect_tool_paths_for_replacement(all_user_tool_file_paths: nil, look_for_new_configs: nil)
       new_user_tool_file_paths = all_user_tool_file_paths.select do |user_config, preinstalled_config_relative_path, user_config_relative_path|
         if look_for_new_configs
