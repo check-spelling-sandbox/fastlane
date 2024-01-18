@@ -14,7 +14,7 @@ module Spaceship
 
       attr_mapping(
         'assetToken' => :asset_token,
-        'timeStemp' => :time_stamp,
+        'timeStamp' => :time_stamp,
         'url' => :url,
         'name' => :name
       )
