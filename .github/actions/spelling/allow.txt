@@ -572,6 +572,8 @@ symbolicated
 symbolication
 SYMROOT
 systemui
+taquito
+taquitos
 teamcity
 teamid
 TELUS
