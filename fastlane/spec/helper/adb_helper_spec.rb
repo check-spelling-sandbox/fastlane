@@ -1,3 +1,4 @@
+
 describe Fastlane::Helper::AdbHelper do
   before do
     stub_const('ENV', { 'ANDROID_HOME' => '/usr/local/android-sdk' })

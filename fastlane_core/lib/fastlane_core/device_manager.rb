@@ -4,6 +4,7 @@ require 'plist'
 require_relative 'command_executor'
 require_relative 'helper'
 
+
 module FastlaneCore
   class DeviceManager
     class << self

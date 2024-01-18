@@ -414,6 +414,7 @@ Security/Open:
 Style/AccessModifierDeclarations:
   Enabled: false
 
+
 # Offense count: 732
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: EnforcedStyle.

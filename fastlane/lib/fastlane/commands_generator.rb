@@ -4,6 +4,7 @@ require 'fastlane_core/ui/help_formatter'
 
 HighLine.track_eof = false
 
+
 module Fastlane
   class CommandsGenerator
     include Commander::Methods

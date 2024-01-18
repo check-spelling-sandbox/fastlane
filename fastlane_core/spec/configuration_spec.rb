@@ -1,3 +1,4 @@
+
 describe FastlaneCore do
   describe FastlaneCore::Configuration do
     describe "Create a new Configuration Manager" do
@@ -673,6 +674,7 @@ describe FastlaneCore do
               @config.fetch(123)
             end.to raise_error("Key '123' must be a symbol. Example :123")
           end
+
 
           it "raises an error if this option does not exist" do
             expect do

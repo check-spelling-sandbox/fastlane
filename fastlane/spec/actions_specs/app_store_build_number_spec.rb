@@ -1,5 +1,6 @@
 require 'ostruct'
 
+
 describe Fastlane do
   describe Fastlane::FastFile do
     describe "app_store_build_number" do

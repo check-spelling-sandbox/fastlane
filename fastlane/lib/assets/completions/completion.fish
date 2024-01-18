@@ -1,4 +1,5 @@
 # This function was taken from https://github.com/Carthage/Carthage/blob/master/Source/Scripts/carthage-fish-completion
+
 function __fish_fastlane_needs_subcommand
   set cmd (commandline -opc)
   if [ (count $cmd) -eq 1 -a $cmd[1] = 'fastlane' ]

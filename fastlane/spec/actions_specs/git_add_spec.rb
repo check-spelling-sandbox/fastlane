@@ -1,3 +1,4 @@
+
 describe Fastlane do
   describe Fastlane::FastFile do
     describe "git_add" do

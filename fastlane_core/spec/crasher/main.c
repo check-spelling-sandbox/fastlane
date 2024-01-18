@@ -2,6 +2,7 @@
 #include<signal.h>
 #include<unistd.h> 
 #include<stdlib.h>
+
 int main()
 {
     sigset_t act;

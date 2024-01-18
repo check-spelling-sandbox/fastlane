@@ -29,6 +29,7 @@ describe Deliver::CommandsGenerator do
       Deliver::CommandsGenerator.start
     end
 
+    
     it "can use the app_identifier flag from tool options" do
       # leaving out the command name defaults to 'run'
       stub_commander_runner_args(['--description', '{"en-US": "My description"}', '--app_identifier', 'abcd'])

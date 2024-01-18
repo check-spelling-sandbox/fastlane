@@ -1,3 +1,4 @@
+
 describe Fastlane do
   describe Fastlane::FastFile do
     describe "add_extra_platforms" do

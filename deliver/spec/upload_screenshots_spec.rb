@@ -1,6 +1,7 @@
 require 'deliver/upload_screenshots'
 require 'fakefs/spec_helpers'
 
+
 describe Deliver::UploadScreenshots do
   describe '#delete_screenshots' do
     context 'when localization has a screenshot' do

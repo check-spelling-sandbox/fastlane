@@ -1,4 +1,5 @@
 # rubocop:disable all
+
 module Fastlane
   module Actions
     module SharedValues

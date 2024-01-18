@@ -1,5 +1,6 @@
 require 'fastlane/lane_list'
 
+
 describe Fastlane do
   describe Fastlane::LaneList do
     it "#generate" do

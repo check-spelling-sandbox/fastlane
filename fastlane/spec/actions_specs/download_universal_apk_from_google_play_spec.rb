@@ -1,3 +1,4 @@
+
 describe Fastlane do
   describe Fastlane::FastFile do
     describe "download_universal_apk_from_google_play" do

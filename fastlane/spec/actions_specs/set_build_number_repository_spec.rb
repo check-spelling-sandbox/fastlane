@@ -1,3 +1,4 @@
+
 describe Fastlane do
   describe Fastlane::FastFile do
     context "set build number repository" do
@@ -36,6 +37,7 @@ describe Fastlane do
         expect(Fastlane::Actions).to receive(:sh)
           .with(/agvtool new[-]version [-]all asd123 && cd [-]/)
           .and_return("")
+
 
         result = Fastlane::FastFile.new.parse("lane :test do
             set_build_number_repository(

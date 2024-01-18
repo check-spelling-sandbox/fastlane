@@ -2,6 +2,7 @@
   <img src="/img/actions/snapshot.png" width="250">
 </p>
 
+
 ###### Automate taking localized screenshots of your iOS, tvOS, and watchOS apps on every device
 
 <hr />

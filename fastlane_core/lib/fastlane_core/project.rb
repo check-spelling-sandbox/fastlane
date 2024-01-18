@@ -3,6 +3,7 @@ require 'xcodeproj'
 require_relative './configuration/configuration'
 require 'fastlane_core/command_executor'
 
+
 module FastlaneCore
   # Represents an Xcode project
   class Project # rubocop:disable Metrics/ClassLength

@@ -1,3 +1,4 @@
+
 describe Fastlane do
   describe Fastlane::Action do
     describe "#action_name" do

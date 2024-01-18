@@ -111,6 +111,7 @@ Lint/UselessAssignment:
   Exclude:
     - '**/spec/**/*'
 
+
 # In specs requires are done automatically
 Require/MissingRequireStatement:
   Exclude:

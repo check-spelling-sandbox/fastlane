@@ -1,5 +1,6 @@
 require 'open3'
 
+
 describe FastlaneCore do
   describe FastlaneCore::DeviceManager do
     before(:all) do

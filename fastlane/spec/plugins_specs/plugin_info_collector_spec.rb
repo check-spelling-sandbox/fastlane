@@ -1,3 +1,4 @@
+
 describe Fastlane::PluginInfoCollector do
   let(:test_ui) do
     ui = Fastlane::PluginGeneratorUI.new

@@ -438,6 +438,7 @@ describe FastlaneCore do
       end
     end
 
+
     describe "Project.run_command" do
       def count_processes(text)
         `ps -aef | grep #{text} | grep -v grep | wc -l`.to_i

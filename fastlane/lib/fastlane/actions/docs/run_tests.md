@@ -2,6 +2,7 @@
   <img src="/img/actions/scan.png" width="250">
 </p>
 
+
 ###### The easiest way to run tests of your iOS and Mac app
 
 _scan_ makes it easy to run tests of your iOS and Mac app on a simulator or connected device.

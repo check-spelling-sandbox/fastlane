@@ -1,5 +1,6 @@
 require 'fastlane/erb_template_helper'
 
+
 module Fastlane
   module Actions
     class MailgunAction < Action

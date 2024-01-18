@@ -1,3 +1,4 @@
+
 describe Fastlane do
   describe Fastlane::FastFile do
     build_log_path = File.expand_path("#{FastlaneCore::Helper.buildlog_path}/fastlane/xcbuild/#{Time.now.strftime('%F')}/#{Process.pid}/xcodebuild.log")

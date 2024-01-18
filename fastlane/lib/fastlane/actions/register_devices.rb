@@ -1,5 +1,6 @@
 require 'credentials_manager'
 
+
 module Fastlane
   module Actions
     class RegisterDevicesAction < Action
@@ -176,6 +177,7 @@ module Fastlane
       def self.author
         "lmirosevic"
       end
+
 
       def self.example_code
         [

@@ -1,3 +1,4 @@
+
 module Fastlane
   module Actions
     class EnvironmentVariableAction < Action

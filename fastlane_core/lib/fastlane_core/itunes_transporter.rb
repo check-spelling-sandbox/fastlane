@@ -17,6 +17,7 @@ module FastlaneCore
   class TransporterTransferError < StandardError
   end
 
+
   # Used internally
   class TransporterRequiresApplicationSpecificPasswordError < StandardError
   end

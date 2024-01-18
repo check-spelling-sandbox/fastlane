@@ -3,6 +3,7 @@ require 'shellwords'
 
 # Here be monkey patches
 
+
 class String
   # CrossplatformShellwords
   def shellescape

@@ -1,5 +1,6 @@
 require 'deliver/runner'
 
+
 class MockSession
   def teams
     [

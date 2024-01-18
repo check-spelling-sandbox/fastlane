@@ -1,4 +1,5 @@
 # rubocop:disable Lint/AssignmentInCondition
+
 module Fastlane
   module Actions
     module SharedValues

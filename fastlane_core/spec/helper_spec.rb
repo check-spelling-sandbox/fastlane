@@ -1,3 +1,4 @@
+
 describe FastlaneCore do
   describe FastlaneCore::Helper do
     describe "#bundler?" do

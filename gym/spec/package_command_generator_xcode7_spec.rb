@@ -194,6 +194,7 @@ describe Gym do
       }
       Gym.config = FastlaneCore::Configuration.create(Gym::Options.available_options, options)
 
+
       result = Gym::PackageCommandGeneratorXcode7.generate
       config_path = Gym::PackageCommandGeneratorXcode7.config_path
 

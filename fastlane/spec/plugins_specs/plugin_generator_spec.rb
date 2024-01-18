@@ -6,6 +6,7 @@ generator = nil
 tmp_dir = nil
 oldwd = nil
 
+
 describe Fastlane::PluginGenerator do
   describe '#generate' do
     let(:plugin_info) { Fastlane::PluginInfo.new('tester_thing', 'Fabricio Devtoolio', 'fabric.devtools@gmail.com', 'summary', 'details') }

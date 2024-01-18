@@ -4,6 +4,7 @@
 
 ###### Automated localized screenshots of your Android app on every device
 
+
 _screengrab_ generates localized screenshots of your Android app for different device types and languages for Google Play and can be uploaded using [_supply_](https://fastlane.tools/supply).
 
 <img src="/img/actions/running-screengrab.gif" width="640">

@@ -502,6 +502,7 @@ describe Spaceship::AppVersion, all: true do
         #  end.to raise_error "FIXME"
         # end
 
+
         it "prevent from using invalid language" do
           expect do
             version.upload_screenshot!(screenshot_path, 1, "NotALanguage", 'iphone4', false)

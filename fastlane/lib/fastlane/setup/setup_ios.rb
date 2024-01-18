@@ -1,3 +1,4 @@
+
 module Fastlane
   # rubocop:disable Metrics/ClassLength
   class SetupIos < Setup

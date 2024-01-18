@@ -1,5 +1,6 @@
 require "stringio"
 
+
 describe Fastlane::Actions do
   describe "#sh" do
     before do

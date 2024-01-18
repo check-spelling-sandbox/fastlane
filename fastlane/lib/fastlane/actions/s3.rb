@@ -4,6 +4,7 @@ require 'ostruct'
 require 'uri'
 require 'cgi'
 
+
 module Fastlane
   module Actions
     module SharedValues
